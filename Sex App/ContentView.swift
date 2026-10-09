@@ -1,0 +1,27 @@
+//
+//  ContentView.swift
+//  Sex App
+//
+//  Created by Homan Qiu on 10/9/26.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+            Button("Kill me") {
+                print("I am killed")
+            }
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
