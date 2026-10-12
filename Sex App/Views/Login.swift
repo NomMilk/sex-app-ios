@@ -53,6 +53,12 @@ struct Login: View
                 }).padding(.vertical)
                 
                 NavigationLink(destination: SignUp()) {
+                    Text("Forget Password")
+                        .font(.subheadline)
+                        .padding(10)
+                        .hoverEffect(.lift)}
+                
+                NavigationLink(destination: SignUp()) {
                     Text("Create new account")
                         .font(.subheadline)
                         .padding(10)
