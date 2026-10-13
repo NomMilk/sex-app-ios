@@ -9,10 +9,6 @@
 
 import SwiftUI
 
-let backgroundGradient = LinearGradient(
-    colors: [Color.red, Color.blue],
-    startPoint: .top, endPoint: .bottom)
-
 struct Login: View
 {
     @State var username = ""
@@ -22,6 +18,11 @@ struct Login: View
     {
         ZStack
         {
+            Image("seia")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+            
             VStack
             {
                 Text("Sex app")
@@ -66,12 +67,6 @@ struct Login: View
             }
             .padding()
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(alignment: .center) {
-            Image("seia")
-                .resizable()
-                .scaledToFill()
-                .ignoresSafeArea()}
     }
 }
 
