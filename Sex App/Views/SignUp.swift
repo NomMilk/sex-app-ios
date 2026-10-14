@@ -38,6 +38,15 @@ struct SignUp: View {
                 .background(Color(.systemGray6))
                 .cornerRadius(10)
                 .padding(.horizontal, 24)
+            Button(action: {  }, label: {
+                Text("Sign up")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .frame(width: 360, height: 44)
+                    .background(Color(.systemBlue))
+                    .cornerRadius(10)
+            }).padding(.vertical)
         }
         .padding()
     }

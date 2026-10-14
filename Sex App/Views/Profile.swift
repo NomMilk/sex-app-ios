@@ -26,7 +26,7 @@ struct Profile: View
                         .frame(maxWidth: 300, maxHeight: 300)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                     
-                    Text("voice clip")
+                    Text("Voice clip")
                         .padding()
                     
                     Text("looking for")
