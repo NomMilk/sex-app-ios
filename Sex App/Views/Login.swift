@@ -1,12 +1,3 @@
-//
-//  Login.swift
-//  Sex App
-//
-//  Created by Homan Qiu on 10/9/26.
-
-
-//  why did son put a watermark in the code
-
 import SwiftUI
 
 struct Login: View

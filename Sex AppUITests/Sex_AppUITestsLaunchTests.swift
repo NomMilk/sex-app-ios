@@ -1,10 +1,3 @@
-//
-//  Sex_AppUITestsLaunchTests.swift
-//  Sex AppUITests
-//
-//  Created by Homan Qiu on 10/9/26.
-//
-
 import XCTest
 
 final class Sex_AppUITestsLaunchTests: XCTestCase {
