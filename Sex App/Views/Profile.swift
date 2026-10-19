@@ -7,18 +7,24 @@ struct Profile: View
         ZStack
         {
             LinearGradient(
-                colors: [Color.blue, Color.purple],
+                colors: [ColorPalette.pagebg],
                 startPoint: .top, endPoint: .bottom
             )
             .ignoresSafeArea()
             
             ScrollView(.vertical, showsIndicators: false)
             {
-                VStack
+                VStack(alignment: .leading)
                 {
-                    Text("Seia")
-                        .bold()
-                        .font(.title)
+                    HStack
+                    {
+                        Text("Seia")
+                            .bold()
+                            .font(.title)
+                        
+                        Text("12")
+                            .font(.title)
+                    }
                         //.padding(.trailing, 250)
                     
                     Image("seia")
@@ -29,13 +35,10 @@ struct Profile: View
                     Text("Voice clip")
                         .padding()
                     
-                    Text("looking for")
+                    Text("Looking for")
                         .padding()
                     
                     Text("Bio")
-                        .padding()
-                    
-                    Text("Photos")
                         .padding()
                     
                     Text("Stats")
