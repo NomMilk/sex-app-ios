@@ -22,7 +22,7 @@ struct Profile: View
                             .bold()
                             .font(.title)
                         
-                        Text("12")
+                        Text("17")
                             .font(.title)
                     }
                         //.padding(.trailing, 250)
